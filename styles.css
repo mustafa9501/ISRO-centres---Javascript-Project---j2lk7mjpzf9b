@@ -18,20 +18,18 @@ body{
     font-weight: bold;
     margin-top: 19px;
 }
-#sub-heading{
-    font-size: 35px;
+
+.isro-sub-heading{
+    margin: -40px 65px;
+    font-size: 28px;
 }
-#sub-heading span::first-letter{
+.isro-sub-heading .first-letter{
     color: #004AAD;
 }
 #sub-heading .image{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     padding-top: 10px;
-}
-#sub-heading span{
-    margin: 22px 8px;
-    position: absolute;
 }
 #isro-heading{
     margin-top: 14px;
