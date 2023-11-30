@@ -25,6 +25,7 @@ body{
 }
 .isro-sub-heading .first-letter{
     color: #004AAD;
+    font-weight: bold;
 }
 #sub-heading .image{
     width: 65px;
