@@ -20,16 +20,20 @@ body{
 }
 
 .isro-sub-heading{
-    margin: -40px 65px;
+    margin: 0px 70px;
     font-size: 28px;
 }
 .isro-sub-heading .first-letter{
     color: #004AAD;
 }
+#sub-heading{
+    margin-top: 26px;
+}
 #sub-heading .image{
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     padding-top: 10px;
+    margin-bottom: -45px;
 }
 #isro-heading{
     margin-top: 14px;
