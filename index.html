@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO Center</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="logo-image">
+            <img src="/photos/1f30c.svg">
+        </div>
+        <div id="heading">ISRO centers</div>
+        <div id="sub-heading">
+            <img class="image" src="photos/Indian_Space_Research_Organization_(2).png">
+            <span>Indian Space Research Organization</span>
+        </div>
+        <div id="isro-heading">Search for ISRO centers  based on place, state and name
+        </div>
+        <div id="search">
+            <div id="search-input-bar">
+            <input class="input-text" id="search-details" type="text" placeholder="Type here......." name="search">
+            <button id="btn" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <div id="search-location">
+            <button class="btn active" onclick="filterHandler('city')" id="city">CITY</button>
+            <button class="btn" onclick="filterHandler('state')" id="state">STATE</button>
+            <button class="btn" onclick="filterHandler('center')" id="center">CENTER</button>
+            </div>
+        </div>
+        <div id="card-text">
+           
+        </div>       
+        </div>
+    </div>
 
+    <script src="App.js"></script>
+</body>
+</html>
